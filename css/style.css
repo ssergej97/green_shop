@@ -1,9 +1,99 @@
-* {
+*{
     margin: 0;
     padding: 0;
 }
 
-.wrapper {
+.wrapper{
     max-width: 1200px;
     margin: auto;
+}
+
+.dialog-wrapper{
+    max-width: 500px;
+    margin: auto;
+}
+
+.close-modal{
+    margin-left: 469px;
+    margin-top: 13px;
+}
+
+.dialog-wrapper h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.dialog-wrapper h2 span{
+    color: #46A358;
+    margin-left: 13px;
+    border-left: 1px solid black;
+    padding-left: 13px;
+}
+
+.form-wrapper{
+    margin-left: 100px;
+}
+
+.form-wrapper p{
+    margin-bottom: 14px;
+    text-align: left;
+}
+
+.input-text{
+    width: 300px;
+    height: 40px;
+    margin-bottom: 16px;
+}
+
+.input-email{
+    width: 300px;
+    height: 40px;
+    margin-bottom: 16px;
+}
+
+.input-password{
+    width: 300px;
+    height: 40px;
+    margin-bottom: 16px;
+}
+
+.input-confirm-password{
+    width: 300px;
+    height: 40px;
+    margin-bottom: 41px;
+}
+
+button{
+    width: 300px;
+    height: 45px;
+    margin-bottom: 36px;
+    padding: 16px 118px 13px 119px;
+    background-color: #46A358;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 27px;
+    color: #3D3D3D;
+}
+
+.reg-wrapper {
+    text-align: center;
+}
+
+.google-reg-wrapper {
+    margin-bottom: 15px;
+}
+
+.google-reg-wrapper a {
+    text-decoration: none;
+    color: #727272;
+}
+
+.reg-wrapper a {
+    text-decoration: none;
+    color: #727272;
 }
