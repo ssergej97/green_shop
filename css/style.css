@@ -63,7 +63,7 @@
     margin-bottom: 41px;
 }
 
-button{
+.btn{
     width: 300px;
     height: 45px;
     margin-bottom: 36px;
@@ -74,26 +74,26 @@ button{
     border-radius: 5px;
 }
 
-p {
+.text{
     text-align: center;
     margin-bottom: 27px;
     color: #3D3D3D;
 }
 
-.reg-wrapper {
+.reg-wrapper{
     text-align: center;
 }
 
-.google-reg-wrapper {
+.google-reg-wrapper{
     margin-bottom: 15px;
 }
 
-.google-reg-wrapper a {
+.google-reg-wrapper a{
     text-decoration: none;
     color: #727272;
 }
 
-.reg-wrapper a {
+.reg-wrapper a{
     text-decoration: none;
     color: #727272;
 }
