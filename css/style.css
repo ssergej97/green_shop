@@ -153,6 +153,60 @@ header .login:hover svg path{
     stroke: #46A358;
 }
 
-.banner article{
-    max-width: 557px;
+.banner .container{
+    padding-left: 40px;
+}
+
+.banner .container h3{
+    font-family: "Cera Pro", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #3d3d3d;
+    margin-bottom: 7px;
+}
+
+.banner .container h1{
+    font-family: "Cera Pro", sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #3d3d3d;
+    margin-bottom: 5px;
+}
+
+.banner .container h1 span{
+    color: #46a358;
+}
+
+.banner .container p{
+    font-family: "Cera Pro", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #727272;
+    margin-bottom: 44px;
+}
+
+.banner .container .btn_shop{
+    font-family: "Cera Pro", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 125%;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 26px;
+    background-color: #46a358;
+    text-decoration: none;
+    border-radius: 6px;
+    height: 40px;
+    transition: 0.4s;
+}
+
+.banner .container .btn_shop:hover{
+    background-color: white;
+    color: #46A358;
 }
