@@ -210,3 +210,50 @@ header .login:hover svg path{
     background-color: white;
     color: #46A358;
 }
+
+.catalog .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.categories{
+    flex-basis: 310px;
+    padding-top: 14px;
+    background-color: #fbfbfb;
+}
+
+.catalog .categories h3{
+    flex-basis: 310px;
+    margin-left: 18px;
+    margin-bottom: 7px;
+    font-family: "Cera Pro", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+}
+
+.catalog .categories ul li a{
+    text-decoration: none;
+    font-family: "Cera Pro", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 267%;
+    color: #3d3d3d;
+    transition: 0.4s;
+}
+
+.catalog .categories ul li a:hover{
+    font-weight: 700;
+    color: #46a358;
+    transition: 0.4s;
+}
+
+.catalog .categories ul{
+    margin-bottom: 377px;
+    margin-left: 30px;
+}
+
+.products{
+    flex-basis: 840px;
+}
