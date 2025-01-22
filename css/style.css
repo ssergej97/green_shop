@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'cera_proregular';
+    src: url('../fonts/cerapro-regular-webfont.eot');
+    src: url('../fonts/cerapro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/cerapro-regular-webfont.woff2') format('woff2'),
+    url('../fonts/cerapro-regular-webfont.woff') format('woff'),
+    url('../fonts/cerapro-regular-webfont.ttf') format('truetype'),
+    url('../fonts/cerapro-regular-webfont.svg#cera_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -115,7 +128,7 @@ header nav ul{
 }
 
 header nav ul li a{
-    font-family: "Cera Pro", sans-serif;
+    font-family: "cera_proregular", sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #3d3d3d;
@@ -128,7 +141,7 @@ header .login{
     padding: 7px 17px;
     display: flex;
     align-items: center;
-    font-family: "Cera Pro", sans-serif;
+    font-family: "cera_proregular", sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #fff;
@@ -155,10 +168,11 @@ header .login:hover svg path{
 
 .banner .container{
     padding-left: 40px;
+    margin-bottom: 26px;
 }
 
 .banner .container h3{
-    font-family: "Cera Pro", sans-serif;
+    font-family: "cera_proregular", sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 114%;
@@ -169,7 +183,7 @@ header .login:hover svg path{
 }
 
 .banner .container h1{
-    font-family: "Cera Pro", sans-serif;
+    font-family: "cera_proregular", sans-serif;
     font-weight: 900;
     font-size: 70px;
     line-height: 100%;
@@ -183,7 +197,7 @@ header .login:hover svg path{
 }
 
 .banner .container p{
-    font-family: "Cera Pro", sans-serif;
+    font-family: "cera_proregular", sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 171%;
@@ -192,7 +206,7 @@ header .login:hover svg path{
 }
 
 .banner .container .btn_shop{
-    font-family: "Cera Pro", sans-serif;
+    font-family: "cera_proregular", sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 125%;
@@ -214,6 +228,7 @@ header .login:hover svg path{
 .catalog .container{
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .categories{
@@ -226,7 +241,7 @@ header .login:hover svg path{
     flex-basis: 310px;
     margin-left: 18px;
     margin-bottom: 7px;
-    font-family: "Cera Pro", sans-serif;
+    font-family: "cera_proregular", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 89%;
@@ -235,7 +250,7 @@ header .login:hover svg path{
 
 .catalog .categories ul li a{
     text-decoration: none;
-    font-family: "Cera Pro", sans-serif;
+    font-family: "cera_proregular", sans-serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 267%;
@@ -254,6 +269,90 @@ header .login:hover svg path{
     margin-left: 30px;
 }
 
-.products{
+.catalog .products{
     flex-basis: 840px;
+}
+
+.catalog .products .products_sorting{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 31px;
+}
+
+.catalog .products .products_sorting ul li a{
+    font-family: "cera_proregular", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 107%;
+    color: #3d3d3d;
+    transition: 0.4s;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.catalog .products .products_sorting ul li a:hover{
+    font-family: "cera_proregular", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 107%;
+    color: #46a358;
+    transition: 0.4s;
+    text-decoration: none;
+}
+
+.catalog .products .products_sorting ul{
+    display: flex;
+}
+
+.catalog .products .products_sorting p{
+    font-family: "cera_proregular", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 107%;
+    color: #3d3d3d;
+}
+
+.catalog .products .products_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.catalog .products .products_cards .card{
+    flex-basis: 258px;
+    margin-bottom: 70px;
+}
+
+.catalog .products .products_cards .card a img{
+    width: 258px;
+    margin-bottom: 12px;
+    background-color: #fbfbfb;
+}
+
+.catalog .products .products_cards .card a p{
+    margin-bottom: 6px;
+    font-family: "cera_proregular", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #3d3d3d;
+    text-decoration: none;
+}
+
+.catalog .products .products_cards .card span{
+    font-family: "cera_proregular", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #46a358;
+    text-decoration: none;
+}
+
+.catalog .products .products_cards .card a{
+    text-decoration: none;
+}
+
+.catalog .products .products_cards .card a p:hover{
+    color: #46a358;
+    transition: 0.4s;
 }
