@@ -258,7 +258,7 @@ header .login:hover svg path{
 }
 
 .categories{
-    flex-basis: 310px;
+    max-width: 310px;
     padding-top: 14px;
     background-color: #fbfbfb;
 }
@@ -296,7 +296,7 @@ header .login:hover svg path{
 }
 
 .catalog .products{
-    flex-basis: 840px;
+    max-width: 840px;
 }
 
 .catalog .products .products_sorting{
@@ -350,7 +350,7 @@ header .login:hover svg path{
 }
 
 .catalog .products .products_cards .card{
-    max-width: 258px;
+    flex-basis: 258px;
     margin-bottom: 70px;
 }
 
@@ -360,7 +360,8 @@ header .login:hover svg path{
     background-color: #fbfbfb;
 }
 
-.catalog .products .products_cards .card a p{
+.catalog .products .products_cards .card a span{
+    display: inline-block;
     margin-bottom: 6px;
     font-family: "cera_proregular", sans-serif;
     font-weight: 400;
@@ -370,7 +371,7 @@ header .login:hover svg path{
     text-decoration: none;
 }
 
-.catalog .products .products_cards .card span{
+.catalog .products .products_cards .card p span{
     font-family: "cera_probold", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -383,7 +384,7 @@ header .login:hover svg path{
     text-decoration: none;
 }
 
-.catalog .products .products_cards .card a p:hover{
+.catalog .products .products_cards .card a span:hover{
     color: #46a358;
     transition: 0.4s;
 }
@@ -433,7 +434,6 @@ header .login:hover svg path{
 }
 
 .promo .container{
-    max-width: 1200px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 138px;
@@ -493,3 +493,99 @@ header .login:hover svg path{
     background-image: url('../images/Arrow_Right.svg');
 }
 
+.blog_posts .container{
+    display: block;
+    margin-bottom: 100px;
+}
+
+.blog_posts .container h2{
+    font-family: 'cera_probold', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 53%;
+    text-align: center;
+    color: #3d3d3d;
+    margin-bottom: 15px;
+}
+
+.blog_posts .container p{
+    font-family: 'cera_proregular', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-align: center;
+    color: #727272;
+    margin-bottom: 35px;
+}
+
+.blog_posts .container .posts{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog_posts .container .posts .post{
+    max-width: 268px;
+    background: #fbfbfb;
+    padding-bottom: 13px;
+}
+
+.blog_posts .container .posts .post img{
+    margin-bottom: 9px;
+}
+
+.blog_posts .container .posts .post h4{
+    font-family: 'cera_proregular', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    color: #46a358;
+    margin-bottom: 4px;
+    margin-left: 15px;
+}
+
+.blog_posts .container .posts .post h3{
+    font-family: 'cera_probold', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: #3d3d3d;
+    margin-bottom: 4px;
+    margin-left: 15px;
+}
+
+.blog_posts .container .posts .post p{
+    font-family: 'cera_proregular', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #727272;
+    margin-bottom: 9px;
+    margin-left: 15px;
+    text-align: left;
+}
+
+.blog_posts .container .posts .post .btn_blog_post{
+    font-family: 'cera_proregular', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    color: #3d3d3d;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.blog_posts .container .posts .post .btn_blog_post:hover{
+    font-family: 'cera_proregular', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    color: #46a358;
+}
+
+.blog_posts .container .posts .post .btn_blog_post:after{
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url('../images/Arrow_Right.svg');
+}
