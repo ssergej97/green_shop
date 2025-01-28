@@ -345,6 +345,7 @@ header .login:hover svg path{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 90px;
 }
 
 .catalog .products .products_cards .card{
@@ -384,4 +385,49 @@ header .login:hover svg path{
 .catalog .products .products_cards .card a p:hover{
     color: #46a358;
     transition: 0.4s;
+}
+
+.catalog .products .pagination{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 94px;
+}
+
+.catalog .products .pagination ul{
+    display: flex;
+    gap: 10px;
+}
+
+.catalog .products .pagination ul li a{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+    border: 1px solid #e5e5e5;
+    font-family: 'cera_proregular', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.catalog .products .pagination ul li:hover a{
+    background: #46a358;
+    font-family: 'cera_probold', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.catalog .products .pagination ul li:hover a svg path{
+    stroke: #fff;
+    transition: 0.4s;
+    stroke-width: 2.5;
 }
