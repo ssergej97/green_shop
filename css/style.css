@@ -352,6 +352,38 @@ header .login:hover svg path{
 .catalog .products .products_cards .card{
     flex-basis: 258px;
     margin-bottom: 70px;
+    border-top: 1px solid transparent;
+    position: relative;
+}
+
+.catalog .products .products_cards .card ul{
+    display: flex;
+    gap: 10px;
+    position: relative;
+}
+
+.catalog .products .products_cards .card ul li{
+    position: absolute;
+    left: 67px;
+    top: 233px;
+}
+
+.catalog .products .products_cards .card:hover{
+    border-top: 1px solid #46A358;
+}
+
+.catalog .products .products_cards .card .discount{
+    font-family: "cera_proregular", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #fff;
+    background-color: #46A358;
+    padding: 6px 8px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 14px;
 }
 
 .catalog .products .products_cards .card a img{
@@ -371,6 +403,7 @@ header .login:hover svg path{
     text-decoration: none;
 }
 
+
 .catalog .products .products_cards .card p span{
     font-family: "cera_probold", sans-serif;
     font-weight: 700;
@@ -378,7 +411,22 @@ header .login:hover svg path{
     line-height: 89%;
     color: #46a358;
     text-decoration: none;
+    margin-right: 16px;
 }
+
+.catalog .products .products_cards .card div{
+    display: flex;
+}
+
+.catalog .products .products_cards .card div .old_price{
+    font-family: "cera_proregular", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 89%;
+    color: #a5a5a5;
+    text-decoration: line-through;
+}
+
 
 .catalog .products .products_cards .card a{
     text-decoration: none;
