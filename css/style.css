@@ -486,7 +486,6 @@ header .login:hover svg path{
 }
 
 .promo .container .promo_products .promo_product .btn_find_more{
-    width: 140px;
     font-family: 'cera_proregular', sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -514,6 +513,19 @@ header .login:hover svg path{
     position: relative;
     top: 4px;
     margin-left: 2px;
+    transition: 0.4s;
+}
+
+.promo .container .promo_products .promo_product .btn_find_more:hover:after {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url('../images/Arrow_Right_Green_Find_More.svg');
+    position: relative;
+    top: 4px;
+    margin-left: 2px;
+    transition: 0.4s;
 }
 
 .blog_posts .container{
@@ -616,5 +628,18 @@ header .login:hover svg path{
     position: relative;
     top: 5px;
     margin-right: 3px;
+    transition: 0.4s;
+}
+
+.blog_posts .container .posts .post .btn_blog_post:hover:after{
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url('../images/Arrow_Right_Green.svg');
+    position: relative;
+    top: 5px;
+    margin-right: 3px;
+    transition: 0.4s;
 }
 
