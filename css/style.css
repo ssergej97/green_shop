@@ -445,10 +445,23 @@ header .login:hover svg path{
     align-items: center;
     background: #fbfbfb;
     padding-right: 30px;
+    max-width: 586px;
+    height: 250px;
+}
+
+
+.promo .container .promo_products img{
+    position: relative;
+    top: -22px;
+    width: 274px;
+    height: 292px;
 }
 
 .promo .container .promo_products .promo_product{
-    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    max-width: 292px;
 }
 
 .promo .container .promo_products .promo_product h3{
@@ -483,6 +496,13 @@ header .login:hover svg path{
     border-radius: 6px;
     padding: 10px 28px;
     text-decoration: none;
+    transition: 0.4s;
+}
+
+.promo .container .promo_products .promo_product .btn_find_more:hover{
+    background-color: white;
+    color: #46A358;
+    transition: 0.4s;
 }
 
 .promo .container .promo_products .promo_product .btn_find_more:after {
@@ -491,6 +511,9 @@ header .login:hover svg path{
     width: 18px;
     height: 18px;
     background-image: url('../images/Arrow_Right.svg');
+    position: relative;
+    top: 4px;
+    margin-left: 2px;
 }
 
 .blog_posts .container{
@@ -572,6 +595,7 @@ header .login:hover svg path{
     color: #3d3d3d;
     text-decoration: none;
     margin-left: 15px;
+    transition: 0.4s;
 }
 
 .blog_posts .container .posts .post .btn_blog_post:hover{
@@ -580,6 +604,7 @@ header .login:hover svg path{
     font-size: 14px;
     line-height: 114%;
     color: #46a358;
+    transition: 0.4s;
 }
 
 .blog_posts .container .posts .post .btn_blog_post:after{
@@ -587,5 +612,9 @@ header .login:hover svg path{
     display: inline-block;
     width: 16px;
     height: 16px;
-    background-image: url('../images/Arrow_Right.svg');
+    background-image: url('../images/Arrow_Right_Black.svg');
+    position: relative;
+    top: 5px;
+    margin-right: 3px;
 }
+
