@@ -358,14 +358,48 @@ header .login:hover svg path{
 
 .catalog .products .products_cards .card ul{
     display: flex;
-    gap: 10px;
     position: relative;
 }
 
 .catalog .products .products_cards .card ul li{
     position: absolute;
     left: 67px;
-    top: 233px;
+    top: 260px;
+    padding: 6px 8px;
+    display: inline-block;
+    border-radius: 4px;
+    background: #fff;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.catalog .products .products_cards .card:hover ul li{
+    position: absolute;
+    left: 67px;
+    top: 260px;
+    padding: 6px 8px;
+    display: inline-block;
+    border-radius: 4px;
+    background: #fff;
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.catalog .products .products_cards .card ul li:hover svg path{
+    fill: #46A358;
+    transition: 0.4s;
+}
+
+.catalog .products .products_cards .card ul li svg path{
+    transition: 0.4s;
+}
+
+.catalog .products .products_cards .card ul li:nth-child(2) {
+    margin-left: 45px;
+}
+
+.catalog .products .products_cards .card ul li:nth-child(3) {
+    margin-left: 90px;
 }
 
 .catalog .products .products_cards .card:hover{
