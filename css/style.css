@@ -153,6 +153,81 @@ header nav ul{
 }
 
 header nav ul li a{
+    position: relative;
+}
+
+header nav ul li a:before{
+    content: '';
+    position: absolute;
+    bottom: -25px;
+    width: 0;
+    height: 2px;
+    background: #46A358;
+    display: block;
+    transition: 0.4s;
+}
+
+header nav ul li a:hover:before{
+    width: 100%;
+}
+
+header nav ul li .dropdown{
+    display: none;
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    left: -60px;
+    padding-top: 40px;
+}
+
+header nav ul li.drop:hover .dropdown{
+    display: block;
+}
+
+header nav ul li .dropdown a:before{
+    display: none;
+}
+
+header nav ul li{
+    position: relative;
+}
+
+header nav ul li .dropdown a{
+    display: inline-block;
+    width: 188px;
+    padding: 8px 14px;
+    background: #EDF6EE;
+    line-height: 20px;
+    font-family: 'cera_proregular', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3d3d3d;
+    transition: 0.4s;
+    position: relative;
+}
+
+header nav ul li .dropdown a:hover{
+    background: #1a712a;
+    color: white;
+}
+
+header nav ul li .dropdown li:last-of-type a:after{
+    content: '';
+    display: block;
+    width: 7px;
+    height: 10px;
+    position: absolute;
+    right: 17px;
+    top: 12px;
+    background-image: url("../images/arow.svg");
+}
+
+header nav ul li .dropdown li a:hover:after{
+    background-image: url("../images/arow_hover.svg");
+    transform: rotate(180deg);
+}
+
+header nav ul li a{
     font-family: "cera_proregular", sans-serif;
     font-weight: 400;
     font-size: 16px;
