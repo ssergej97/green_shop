@@ -227,6 +227,26 @@ header nav ul li .dropdown li a:hover:after{
     transform: rotate(180deg);
 }
 
+header nav ul li .dropdown .second_drop .second_dropdown{
+    display: none;
+}
+header nav ul li .dropdown .second_drop{
+    padding-right: 20px;
+}
+
+
+header nav ul li .second_drop:hover .second_dropdown{
+    display: block;
+    position: absolute;
+    top: -108px;
+    left: 190px;
+}
+
+header nav ul li .second_drop .second_dropdown li a:after{
+    background-image: none;
+}
+
+
 header nav ul li a{
     font-family: "cera_proregular", sans-serif;
     font-weight: 400;
