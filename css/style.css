@@ -820,3 +820,88 @@ header .login:hover svg path{
     transition: 0.4s;
 }
 
+.newsletter .container {
+    background: #fbfbfb;
+    padding: 24px;
+    gap: 60px;
+}
+
+.newsletter .container .card img{
+    margin-bottom: 15px;
+}
+
+.newsletter .container .card h3{
+    font-family: 'cera_probold', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 94%;
+    color: #3d3d3d;
+    margin-bottom: 9px;
+}
+
+.newsletter .container .card p{
+    font-family: 'cera_proregular', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #727272;
+}
+
+.newsletter .container .sign_up_newsletter h3 {
+    font-family: 'cera_probold', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+    margin-bottom: 25px;
+}
+
+.newsletter .container .sign_up_newsletter form {
+    display: flex;
+    margin-bottom: 18px;
+}
+
+.newsletter .container .sign_up_newsletter form input{
+    border-radius: 6px 0 0 6px;
+    width: 270px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);
+    background: #fff;
+    font-family: 'cera_proregular', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 114%;
+    color: #acacac;
+    border: none;
+    padding: 12px 0 12px 12px;
+}
+
+.newsletter .container .sign_up_newsletter form input:focus {
+    border: 1px solid green;
+    outline: none;
+}
+
+.newsletter .container .sign_up_newsletter form button{
+    border-radius: 0 6px 6px 0;
+    background: #46a358;
+    font-family: 'cera_probold', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #fff;
+    border: none;
+    padding: 12px 26px;
+    cursor: pointer;
+}
+
+
+.newsletter .container .sign_up_newsletter p{
+    font-family: 'cera_proregular', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 169%;
+    color: #727272;
+}
+
+
+
+
