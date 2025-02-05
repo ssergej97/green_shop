@@ -36,13 +36,13 @@
 
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.container{
+.container {
     max-width: 1200px;
     margin: auto;
     display: flex;
@@ -50,62 +50,62 @@
     align-items: center;
 }
 
-.dialog-wrapper{
+.dialog-wrapper {
     max-width: 500px;
     margin: auto;
 }
 
-.close-modal{
+.close-modal {
     margin-left: 469px;
     margin-top: 13px;
 }
 
-.dialog-wrapper h2{
+.dialog-wrapper h2 {
     text-align: center;
     margin-bottom: 40px;
 }
 
-.dialog-wrapper h2 span{
+.dialog-wrapper h2 span {
     color: #46A358;
     margin-left: 13px;
     border-left: 1px solid black;
     padding-left: 13px;
 }
 
-.form-wrapper{
+.form-wrapper {
     margin-left: 100px;
 }
 
-.form-wrapper p{
+.form-wrapper p {
     margin-bottom: 14px;
     text-align: left;
 }
 
-.input-text{
+.input-text {
     width: 300px;
     height: 40px;
     margin-bottom: 16px;
 }
 
-.input-email{
+.input-email {
     width: 300px;
     height: 40px;
     margin-bottom: 16px;
 }
 
-.input-password{
+.input-password {
     width: 300px;
     height: 40px;
     margin-bottom: 16px;
 }
 
-.input-confirm-password{
+.input-confirm-password {
     width: 300px;
     height: 40px;
     margin-bottom: 41px;
 }
 
-.btn{
+.btn {
     width: 300px;
     height: 45px;
     margin-bottom: 36px;
@@ -116,47 +116,47 @@
     border-radius: 5px;
 }
 
-.text{
+.text {
     text-align: center;
     margin-bottom: 27px;
     color: #3D3D3D;
 }
 
-.reg-wrapper{
+.reg-wrapper {
     text-align: center;
 }
 
-.google-reg-wrapper{
+.google-reg-wrapper {
     margin-bottom: 15px;
 }
 
-.google-reg-wrapper a{
+.google-reg-wrapper a {
     text-decoration: none;
     color: #727272;
 }
 
-.reg-wrapper a{
+.reg-wrapper a {
     text-decoration: none;
     color: #727272;
 }
 
-header{
+header {
     margin-bottom: 12px;
     padding-top: 30px;
 }
 
-header nav ul{
+header nav ul {
     display: flex;
     align-items: center;
     list-style: none;
     gap: 50px;
 }
 
-header nav ul li a{
+header nav ul li a {
     position: relative;
 }
 
-header nav ul li a:before{
+header nav ul li a:before {
     content: '';
     position: absolute;
     bottom: -25px;
@@ -167,11 +167,11 @@ header nav ul li a:before{
     transition: 0.4s;
 }
 
-header nav ul li a:hover:before{
+header nav ul li a:hover:before {
     width: 100%;
 }
 
-header nav ul li .dropdown{
+header nav ul li .dropdown {
     display: none;
     list-style: none;
     position: absolute;
@@ -180,19 +180,19 @@ header nav ul li .dropdown{
     padding-top: 40px;
 }
 
-header nav ul li.drop:hover .dropdown{
+header nav ul li.drop:hover .dropdown {
     display: block;
 }
 
-header nav ul li .dropdown a:before{
+header nav ul li .dropdown a:before {
     display: none;
 }
 
-header nav ul li{
+header nav ul li {
     position: relative;
 }
 
-header nav ul li .dropdown a{
+header nav ul li .dropdown a {
     display: inline-block;
     width: 188px;
     padding: 8px 14px;
@@ -206,12 +206,12 @@ header nav ul li .dropdown a{
     position: relative;
 }
 
-header nav ul li .dropdown a:hover{
+header nav ul li .dropdown a:hover {
     background: #1a712a;
     color: white;
 }
 
-header nav ul li .dropdown li:last-of-type a:after{
+header nav ul li .dropdown li:last-of-type a:after {
     content: '';
     display: block;
     width: 7px;
@@ -222,32 +222,33 @@ header nav ul li .dropdown li:last-of-type a:after{
     background-image: url("../images/arow.svg");
 }
 
-header nav ul li .dropdown li a:hover:after{
+header nav ul li .dropdown li a:hover:after {
     background-image: url("../images/arow_hover.svg");
     transform: rotate(180deg);
 }
 
-header nav ul li .dropdown .second_drop .second_dropdown{
+header nav ul li .dropdown .second_drop .second_dropdown {
     display: none;
 }
-header nav ul li .dropdown .second_drop{
+
+header nav ul li .dropdown .second_drop {
     padding-right: 20px;
 }
 
 
-header nav ul li .second_drop:hover .second_dropdown{
+header nav ul li .second_drop:hover .second_dropdown {
     display: block;
     position: absolute;
     top: -108px;
     left: 190px;
 }
 
-header nav ul li .second_drop .second_dropdown li a:after{
+header nav ul li .second_drop .second_dropdown li a:after {
     background-image: none;
 }
 
 
-header nav ul li a{
+header nav ul li a {
     font-family: "cera_proregular", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -255,7 +256,7 @@ header nav ul li a{
     text-decoration: none;
 }
 
-header .login{
+header .login {
     background: #46a358;
     border-radius: 6px;
     padding: 7px 17px;
@@ -269,29 +270,29 @@ header .login{
     transition: 0.4s;
 }
 
-header .login svg{
+header .login svg {
     margin-right: 4px;
 }
 
-header .login svg path{
+header .login svg path {
     transition: 0.4s;
 }
 
-header .login:hover{
+header .login:hover {
     background-color: white;
     color: #46A358;
 }
 
-header .login:hover svg path{
+header .login:hover svg path {
     stroke: #46A358;
 }
 
-.banner .container{
+.banner .container {
     padding-left: 40px;
     margin-bottom: 26px;
 }
 
-.banner .container h3{
+.banner .container h3 {
     font-family: "cera_proregular", sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -302,7 +303,7 @@ header .login:hover svg path{
     margin-bottom: 7px;
 }
 
-.banner .container h1{
+.banner .container h1 {
     font-family: "cera_problack", sans-serif;
     font-weight: 900;
     font-size: 70px;
@@ -312,11 +313,11 @@ header .login:hover svg path{
     margin-bottom: 5px;
 }
 
-.banner .container h1 span{
+.banner .container h1 span {
     color: #46a358;
 }
 
-.banner .container p{
+.banner .container p {
     font-family: "cera_proregular", sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -325,7 +326,7 @@ header .login:hover svg path{
     margin-bottom: 44px;
 }
 
-.banner .container .btn_shop{
+.banner .container .btn_shop {
     font-family: "cera_probold", sans-serif;
     font-weight: 700;
     font-size: 16px;
@@ -340,25 +341,25 @@ header .login:hover svg path{
     transition: 0.4s;
 }
 
-.banner .container .btn_shop:hover{
+.banner .container .btn_shop:hover {
     background-color: white;
     color: #46A358;
 }
 
-.catalog .container{
+.catalog .container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 94px;
 }
 
-.categories{
+.categories {
     max-width: 310px;
     padding-top: 14px;
     background-color: #fbfbfb;
 }
 
-.catalog .categories h3{
+.catalog .categories h3 {
     flex-basis: 310px;
     margin-left: 18px;
     margin-bottom: 7px;
@@ -369,7 +370,7 @@ header .login:hover svg path{
     color: #3d3d3d;
 }
 
-.catalog .categories ul li a{
+.catalog .categories ul li a {
     text-decoration: none;
     font-family: "cera_proregular", sans-serif;
     font-weight: 400;
@@ -379,28 +380,28 @@ header .login:hover svg path{
     transition: 0.4s;
 }
 
-.catalog .categories ul li a:hover{
+.catalog .categories ul li a:hover {
     font-weight: 700;
     color: #46a358;
     transition: 0.4s;
 }
 
-.catalog .categories ul{
+.catalog .categories ul {
     margin-bottom: 377px;
     margin-left: 30px;
 }
 
-.catalog .products{
+.catalog .products {
     max-width: 840px;
 }
 
-.catalog .products .products_sorting{
+.catalog .products .products_sorting {
     display: flex;
     justify-content: space-between;
     margin-bottom: 31px;
 }
 
-.catalog .products .products_sorting ul li a{
+.catalog .products .products_sorting ul li a {
     font-family: "cera_proregular", sans-serif;
     font-weight: 400;
     font-size: 15px;
@@ -412,7 +413,7 @@ header .login:hover svg path{
 }
 
 
-.catalog .products .products_sorting ul li a:hover{
+.catalog .products .products_sorting ul li a:hover {
     font-family: "cera_proregular", sans-serif;
     font-weight: 700;
     font-size: 15px;
@@ -425,11 +426,11 @@ header .login:hover svg path{
     height: 1px;
 }
 
-.catalog .products .products_sorting ul{
+.catalog .products .products_sorting ul {
     display: flex;
 }
 
-.catalog .products .products_sorting p{
+.catalog .products .products_sorting p {
     font-family: "cera_proregular", sans-serif;
     font-weight: 400;
     font-size: 15px;
@@ -437,26 +438,26 @@ header .login:hover svg path{
     color: #3d3d3d;
 }
 
-.catalog .products .products_cards{
+.catalog .products .products_cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 90px;
 }
 
-.catalog .products .products_cards .card{
+.catalog .products .products_cards .card {
     flex-basis: 258px;
     margin-bottom: 70px;
     border-top: 1px solid transparent;
     position: relative;
 }
 
-.catalog .products .products_cards .card ul{
+.catalog .products .products_cards .card ul {
     display: flex;
     position: relative;
 }
 
-.catalog .products .products_cards .card ul li{
+.catalog .products .products_cards .card ul li {
     position: absolute;
     left: 67px;
     top: 260px;
@@ -468,7 +469,7 @@ header .login:hover svg path{
     transition: 0.4s;
 }
 
-.catalog .products .products_cards .card:hover ul li{
+.catalog .products .products_cards .card:hover ul li {
     position: absolute;
     left: 67px;
     top: 260px;
@@ -480,12 +481,12 @@ header .login:hover svg path{
     transition: 0.4s;
 }
 
-.catalog .products .products_cards .card ul li:hover svg path{
+.catalog .products .products_cards .card ul li:hover svg path {
     fill: #46A358;
     transition: 0.4s;
 }
 
-.catalog .products .products_cards .card ul li svg path{
+.catalog .products .products_cards .card ul li svg path {
     transition: 0.4s;
 }
 
@@ -497,11 +498,11 @@ header .login:hover svg path{
     margin-left: 90px;
 }
 
-.catalog .products .products_cards .card:hover{
+.catalog .products .products_cards .card:hover {
     border-top: 1px solid #46A358;
 }
 
-.catalog .products .products_cards .card .discount{
+.catalog .products .products_cards .card .discount {
     font-family: "cera_proregular", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -515,13 +516,13 @@ header .login:hover svg path{
     top: 14px;
 }
 
-.catalog .products .products_cards .card a img{
+.catalog .products .products_cards .card a img {
     width: 258px;
     margin-bottom: 12px;
     background-color: #fbfbfb;
 }
 
-.catalog .products .products_cards .card a span{
+.catalog .products .products_cards .card a span {
     display: inline-block;
     margin-bottom: 6px;
     font-family: "cera_proregular", sans-serif;
@@ -533,7 +534,7 @@ header .login:hover svg path{
 }
 
 
-.catalog .products .products_cards .card p span{
+.catalog .products .products_cards .card p span {
     font-family: "cera_probold", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -543,11 +544,11 @@ header .login:hover svg path{
     margin-right: 16px;
 }
 
-.catalog .products .products_cards .card div{
+.catalog .products .products_cards .card div {
     display: flex;
 }
 
-.catalog .products .products_cards .card div .old_price{
+.catalog .products .products_cards .card div .old_price {
     font-family: "cera_proregular", sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -557,26 +558,26 @@ header .login:hover svg path{
 }
 
 
-.catalog .products .products_cards .card a{
+.catalog .products .products_cards .card a {
     text-decoration: none;
 }
 
-.catalog .products .products_cards .card a span:hover{
+.catalog .products .products_cards .card a span:hover {
     color: #46a358;
     transition: 0.4s;
 }
 
-.catalog .products .pagination{
+.catalog .products .pagination {
     display: flex;
     justify-content: flex-end;
 }
 
-.catalog .products .pagination ul{
+.catalog .products .pagination ul {
     display: flex;
     gap: 10px;
 }
 
-.catalog .products .pagination ul li a{
+.catalog .products .pagination ul li a {
     display: flex;
     width: 35px;
     height: 35px;
@@ -594,7 +595,7 @@ header .login:hover svg path{
     transition: 0.4s;
 }
 
-.catalog .products .pagination ul li:hover a{
+.catalog .products .pagination ul li:hover a {
     background: #46a358;
     font-family: 'cera_probold', sans-serif;
     font-weight: 700;
@@ -604,19 +605,19 @@ header .login:hover svg path{
     transition: 0.4s;
 }
 
-.catalog .products .pagination ul li:hover a svg path{
+.catalog .products .pagination ul li:hover a svg path {
     stroke: #fff;
     transition: 0.4s;
     stroke-width: 2.5;
 }
 
-.promo .container{
+.promo .container {
     display: flex;
     justify-content: space-between;
     margin-bottom: 138px;
 }
 
-.promo .container .promo_products{
+.promo .container .promo_products {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -627,21 +628,21 @@ header .login:hover svg path{
 }
 
 
-.promo .container .promo_products img{
+.promo .container .promo_products img {
     position: relative;
     top: -22px;
     width: 274px;
     height: 292px;
 }
 
-.promo .container .promo_products .promo_product{
+.promo .container .promo_products .promo_product {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     max-width: 292px;
 }
 
-.promo .container .promo_products .promo_product h3{
+.promo .container .promo_products .promo_product h3 {
     font-family: 'cera_problack', sans-serif;
     font-weight: 900;
     font-size: 18px;
@@ -652,7 +653,7 @@ header .login:hover svg path{
     margin-bottom: 9px;
 }
 
-.promo .container .promo_products .promo_product p{
+.promo .container .promo_products .promo_product p {
     font-family: 'cera_proregular', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -662,7 +663,7 @@ header .login:hover svg path{
     margin-bottom: 25px;
 }
 
-.promo .container .promo_products .promo_product .btn_find_more{
+.promo .container .promo_products .promo_product .btn_find_more {
     font-family: 'cera_proregular', sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -675,7 +676,7 @@ header .login:hover svg path{
     transition: 0.4s;
 }
 
-.promo .container .promo_products .promo_product .btn_find_more:hover{
+.promo .container .promo_products .promo_product .btn_find_more:hover {
     background-color: white;
     color: #46A358;
     transition: 0.4s;
@@ -705,12 +706,12 @@ header .login:hover svg path{
     transition: 0.4s;
 }
 
-.blog_posts .container{
+.blog_posts .container {
     display: block;
     margin-bottom: 100px;
 }
 
-.blog_posts .container h2{
+.blog_posts .container h2 {
     font-family: 'cera_probold', sans-serif;
     font-weight: 700;
     font-size: 30px;
@@ -720,7 +721,7 @@ header .login:hover svg path{
     margin-bottom: 15px;
 }
 
-.blog_posts .container p{
+.blog_posts .container p {
     font-family: 'cera_proregular', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -730,22 +731,22 @@ header .login:hover svg path{
     margin-bottom: 35px;
 }
 
-.blog_posts .container .posts{
+.blog_posts .container .posts {
     display: flex;
     justify-content: space-between;
 }
 
-.blog_posts .container .posts .post{
+.blog_posts .container .posts .post {
     max-width: 268px;
     background: #fbfbfb;
     padding-bottom: 13px;
 }
 
-.blog_posts .container .posts .post img{
+.blog_posts .container .posts .post img {
     margin-bottom: 9px;
 }
 
-.blog_posts .container .posts .post h4{
+.blog_posts .container .posts .post h4 {
     font-family: 'cera_proregular', sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -755,7 +756,7 @@ header .login:hover svg path{
     margin-left: 15px;
 }
 
-.blog_posts .container .posts .post h3{
+.blog_posts .container .posts .post h3 {
     font-family: 'cera_probold', sans-serif;
     font-weight: 700;
     font-size: 20px;
@@ -765,7 +766,7 @@ header .login:hover svg path{
     margin-left: 15px;
 }
 
-.blog_posts .container .posts .post p{
+.blog_posts .container .posts .post p {
     font-family: 'cera_proregular', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -776,7 +777,7 @@ header .login:hover svg path{
     text-align: left;
 }
 
-.blog_posts .container .posts .post .btn_blog_post{
+.blog_posts .container .posts .post .btn_blog_post {
     font-family: 'cera_proregular', sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -787,7 +788,7 @@ header .login:hover svg path{
     transition: 0.4s;
 }
 
-.blog_posts .container .posts .post .btn_blog_post:hover{
+.blog_posts .container .posts .post .btn_blog_post:hover {
     font-family: 'cera_proregular', sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -796,7 +797,7 @@ header .login:hover svg path{
     transition: 0.4s;
 }
 
-.blog_posts .container .posts .post .btn_blog_post:after{
+.blog_posts .container .posts .post .btn_blog_post:after {
     content: "";
     display: inline-block;
     width: 16px;
@@ -808,7 +809,7 @@ header .login:hover svg path{
     transition: 0.4s;
 }
 
-.blog_posts .container .posts .post .btn_blog_post:hover:after{
+.blog_posts .container .posts .post .btn_blog_post:hover:after {
     content: "";
     display: inline-block;
     width: 16px;
@@ -826,11 +827,11 @@ header .login:hover svg path{
     gap: 60px;
 }
 
-.newsletter .container .card img{
+.newsletter .container .card img {
     margin-bottom: 15px;
 }
 
-.newsletter .container .card h3{
+.newsletter .container .card h3 {
     font-family: 'cera_probold', sans-serif;
     font-weight: 700;
     font-size: 17px;
@@ -839,7 +840,7 @@ header .login:hover svg path{
     margin-bottom: 9px;
 }
 
-.newsletter .container .card p{
+.newsletter .container .card p {
     font-family: 'cera_proregular', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -861,7 +862,7 @@ header .login:hover svg path{
     margin-bottom: 18px;
 }
 
-.newsletter .container .sign_up_newsletter form input{
+.newsletter .container .sign_up_newsletter form input {
     border-radius: 6px 0 0 6px;
     width: 270px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);
@@ -876,11 +877,10 @@ header .login:hover svg path{
 }
 
 .newsletter .container .sign_up_newsletter form input:focus {
-    border: 1px solid green;
     outline: none;
 }
 
-.newsletter .container .sign_up_newsletter form button{
+.newsletter .container .sign_up_newsletter form button {
     border-radius: 0 6px 6px 0;
     background: #46a358;
     font-family: 'cera_probold', sans-serif;
@@ -894,7 +894,7 @@ header .login:hover svg path{
 }
 
 
-.newsletter .container .sign_up_newsletter p{
+.newsletter .container .sign_up_newsletter p {
     font-family: 'cera_proregular', sans-serif;
     font-weight: 400;
     font-size: 13px;
@@ -902,6 +902,56 @@ header .login:hover svg path{
     color: #727272;
 }
 
+footer .container .upper_footer {
+    display: flex;
+    padding: 26px 0 26px 23px;
+    gap: 73px;
+    background: rgba(70, 163, 88, 0.1);
+    width: 100%;
+    align-items: center;
+}
 
+footer .container .upper_footer p {
+    font-family: 'cera_proregular', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #3d3d3d;
+}
+
+footer .container .upper_footer p:nth-of-type(1):before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('../images/Location.svg');
+    position: relative;
+    transition: 0.4s;
+    top: 5px;
+}
+
+footer .container .upper_footer p:nth-of-type(2):before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('../images/Message.svg');
+    position: relative;
+    transition: 0.4s;
+    top: 5px;
+    left: -5px;
+}
+
+footer .container .upper_footer p:nth-of-type(3):before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('../images/Calling.svg');
+    position: relative;
+    transition: 0.4s;
+    top: 5px;
+    left: -5px;
+}
 
 
