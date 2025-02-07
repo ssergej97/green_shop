@@ -902,6 +902,10 @@ header .login:hover svg path {
     color: #727272;
 }
 
+footer .container {
+    display: block;
+}
+
 footer .container .upper_footer {
     display: flex;
     padding: 26px 0 26px 23px;
@@ -927,7 +931,7 @@ footer .container .upper_footer p:nth-of-type(1):before {
     background-image: url('../images/Location.svg');
     position: relative;
     transition: 0.4s;
-    top: 5px;
+    top: 15px;
 }
 
 footer .container .upper_footer p:nth-of-type(2):before {
@@ -954,4 +958,58 @@ footer .container .upper_footer p:nth-of-type(3):before {
     left: -5px;
 }
 
+.bottom_footer {
+    display: flex;
+    padding: 33px 0 27px 23px;
+    background: #fbfbfb;
+    gap: 166px;
+    margin-bottom: 6px;
+}
 
+.bottom_footer h3 {
+    font-family: 'cera_probold', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+    margin-bottom: 9px;
+}
+
+.bottom_footer ul li a {
+    font-family: 'cera_proregular', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 214%;
+    color: #3d3d3d;
+    text-decoration: none;
+}
+
+.bottom_footer svg {
+    margin-right: 10px;
+}
+
+.bottom_footer .social_media h3 {
+    margin-bottom: 20px;
+}
+
+.bottom_footer .icons {
+    margin-bottom: 33px;
+}
+
+.bottom_footer .icons a {
+    text-decoration: none;
+}
+
+.bottom_footer .social_media h3:nth-of-type(2) {
+    margin-bottom: 13px;
+}
+
+footer .container p {
+    text-align: center;
+    font-family: 'cera_proregular', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 214%;
+    color: #3d3d3d;
+    margin-bottom: 13px;
+}
