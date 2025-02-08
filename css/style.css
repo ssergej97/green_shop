@@ -831,6 +831,18 @@ header .login:hover svg path {
     margin-bottom: 15px;
 }
 
+.newsletter .container .card {
+    position: relative;
+}
+
+.newsletter .container .card .vertical_line {
+    width: 1px;
+    height: 187px;
+    background: rgba(70, 163, 88, 0.1);
+    position: absolute;
+    left: -27px;
+}
+
 .newsletter .container .card h3 {
     font-family: 'cera_probold', sans-serif;
     font-weight: 700;
@@ -909,10 +921,12 @@ footer .container {
 footer .container .upper_footer {
     display: flex;
     padding: 26px 0 26px 23px;
-    gap: 73px;
+    gap: 92px;
     background: rgba(70, 163, 88, 0.1);
     width: 100%;
     align-items: center;
+    border-top: 1px solid rgba(70, 163, 88, 0.2);
+    border-bottom: 1px solid rgba(70, 163, 88, 0.2);
 }
 
 footer .container .upper_footer p {
@@ -932,6 +946,7 @@ footer .container .upper_footer p:nth-of-type(1):before {
     position: relative;
     transition: 0.4s;
     top: 15px;
+    left: -9px;
 }
 
 footer .container .upper_footer p:nth-of-type(2):before {
@@ -942,7 +957,7 @@ footer .container .upper_footer p:nth-of-type(2):before {
     background-image: url('../images/Message.svg');
     position: relative;
     transition: 0.4s;
-    top: 5px;
+    top: 7px;
     left: -5px;
 }
 
@@ -964,6 +979,7 @@ footer .container .upper_footer p:nth-of-type(3):before {
     background: #fbfbfb;
     gap: 166px;
     margin-bottom: 6px;
+    border-bottom: 1px solid rgba(70, 163, 88, 0.2);
 }
 
 .bottom_footer h3 {
