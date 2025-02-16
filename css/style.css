@@ -903,6 +903,13 @@ header .login:hover svg path {
     border: none;
     padding: 12px 26px;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.newsletter .container .sign_up_newsletter form button:hover {
+    background-color: #fff;
+    color: #46A358;
+    border: 1px solid #46A358;
 }
 
 
@@ -1015,6 +1022,19 @@ footer .container .upper_footer p:nth-of-type(3):before {
 
 .bottom_footer .social_media .icons li a {
     text-decoration: none;
+    transition: 0.3s;
+}
+
+.bottom_footer .social_media .icons li a:hover svg {
+    fill: #46A358;
+}
+
+.bottom_footer .social_media .icons li a:hover svg rect {
+    stroke: #fff;
+}
+
+.bottom_footer .social_media .icons li a:hover svg path {
+    fill: #fff;
 }
 
 .bottom_footer .social_media h3:nth-of-type(2) {
